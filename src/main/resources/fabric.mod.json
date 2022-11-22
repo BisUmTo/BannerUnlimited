@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "bannerunlimited",
+  "version": "${version}",
+  "name": "Bannerunlimited",
+  "description": "Banner Unlimited is a mod that allows unlimited patterns on banners.",
+  "authors": [
+    "Gkoliver",
+    "BisUmTo"
+  ],
+  "contact": {
+    "website": "https://www.curseforge.com/minecraft/mc-mods/banner-unlimited",
+    "repo": "https://github.com/TrueGkoliver/BannerUnlimited"
+  },
+  "license": "MIT",
+  "icon": "",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gkoliver.bannerunlimited.BannerUnlimited"
+    ]
+  },
+  "mixins": [
+    "bannerunlimited.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "minecraft": "1.19.X"
+  }
+}
